@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Amaranth');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 body{
-    background-color: cyan;
+    background: linear-gradient(to right, #3389FF, #2E68FC);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     font-family: sans-serif;
+    color: aliceblue;
 }
 
 body, header, main, div, img {
@@ -21,6 +23,7 @@ body, header, main, div, img {
 }
 
 .header h2{
+    position: fixed;
     font-size: 2.5vw;
     margin-left: 4vw;
     margin-top: 6.5vh;
@@ -31,34 +34,98 @@ body, header, main, div, img {
 /* Apresentation */
 
 .container-apresentation{
-    display: flex;
-    width: 100vw;
+    width: 100%;
+    height: 90vh;
 }
 
-.image-introduction {
+.image-apresentation {
     background-image: url("../img/ieducar-oficial.png");
     background-position: center;
     background-size: cover;
-    width: 20vw;
-    height: 20vw;
+    width: 17.5vw;
+    height: 17.5vw;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    margin-top: 5vh;
+    margin-top: 4.5vh;
     overflow: hidden;
 }
 
-.title-introduction {
+.title-apresentation {
     margin-top: 2vh;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     text-align: center;
-    font-family: 'Signika', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
-.text-introduction {
+.text-apresentation {
     width: 30%;
     text-align: center;
     margin: 2vh auto 0 auto;
-    font-size: 1.25vw;
+    font-size: 1.15vw;
     font-family: 'Arbutus Slab', serif;
+}
+
+/* Container Cards */
+
+.container-cards{
+    height: 100vh;
+    background-color: #e2dfdf;
+}
+
+.displayFlex{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+}
+
+.card{
+    flex: 1;
+    height: 50vh;
+    border: solid #2E68FC 0.3vw;
+    background: linear-gradient(to right, rgba(51, 136, 255, 0.8), rgba(46, 104, 252, 0.8));
+    margin: 30vh 7.5vw 0 7.5vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    border-radius: 0.75vw;
+}
+
+.card img{
+    width: 10vw;
+    height: 10vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30%;
+}
+
+.card h2{
+    text-align: center;
+    width: 90%;
+    margin: 1vh 5%;
+    margin-top: 5vh
+}
+
+.card p{
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.card button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1vh;
+    width: 60%;
+    height: 6vh;
+    border: none;
+    background: rgb(3, 181, 204);
+    border-radius: 0.5vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.card button:hover{
+    transform: scale(1.1);
+    background: rgb(1, 78, 88);
+    color: aliceblue;
+    cursor: pointer;
 }
