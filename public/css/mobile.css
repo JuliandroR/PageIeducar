@@ -1,0 +1,65 @@
+@media (max-width: 1000px) {
+    /* Header */
+    .header {
+        width: 100%;
+        height: 10vh;
+    }
+    .header h2 {
+        position: relative;
+        font-size: 7vw;
+        margin-left: 40vw;
+        margin-top: 5vh;
+    }
+    /* Apresentation */
+    .image-apresentation {
+        width: 50vw;
+        height: 50vw;
+        margin-top: 10vh;
+    }
+    .title-apresentation {
+        font-size: 5vw;
+    }
+    .text-apresentation {
+        width: 90%;
+        font-size: 3.5vw;
+    }
+    /* Container Cards */
+
+    .container-cards{
+        height: 110vh;
+    }
+
+    .displayFlex {
+        width: 80vw;
+        margin: 0 10vw;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20vh;
+    }
+    .card {
+        width: 80%;
+        margin: 4vh 10%;
+        height: 35vh;
+    }
+    .card img {
+        width: 22.5vw;
+        margin-top: -6.5vh;
+        height: 22.5vw;
+        display: block;
+    }
+    .card h2 {
+        font-size: 3vw;
+        margin-top: 2vh;
+    }
+    .card p {
+        font-size: 2.5vw;
+        width: 80%;
+        margin: 1vh 10%;
+    }
+    .card button {
+        font-size: 3vw;
+    }
+    .card button:hover {
+        transform: scale(1);
+    }
+}
