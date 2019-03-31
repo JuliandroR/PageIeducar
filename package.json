@@ -1,0 +1,19 @@
+{
+  "name": "suporte-ieducar",
+  "version": "1.0.0",
+  "description": "Página de suporte da equipe do i-educar Nova Andradina",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
