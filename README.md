@@ -1,4 +1,4 @@
-<img align="left" width="100" height="100" src="img/ieducar-oficial.png">
+<img align="left" width="150" height="150" src="img/ieducar-oficial.png">
 
 # Single Page i-Educar
 Página de suporte da Equipe i-Educar N1 do IFMS de Nova Andradina.
