@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
 body{
-    background: linear-gradient(to right, #3389FF, #2E68FC);
+    background: linear-gradient(to right, #3389FF, #2E68FC, rgb(74, 22, 196));
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -59,10 +59,10 @@ body, header, main, div, img {
 }
 
 .text-apresentation {
-    width: 30%;
+    width: 45%;
     text-align: center;
     margin: 2vh auto 0 auto;
-    font-size: 1.15vw;
+    font-size: 1.25vw;
     font-family: 'Arbutus Slab', serif;
 }
 
@@ -81,9 +81,11 @@ body, header, main, div, img {
 
 .card{
     flex: 1;
-    height: 50vh;
-    border: solid #2E68FC 0.3vw;
-    background: linear-gradient(to right, rgba(51, 136, 255, 0.8), rgba(46, 104, 252, 0.8));
+    height: 52vh;
+    border: solid rgba(74, 22, 196, 0.8) 0.2vw;
+    /* background: linear-gradient(to right, rgb(78, 149, 248), rgb(77, 125, 248), rgba(86, 40, 194, 0.8)); */
+    background: #ffff;
+    color: black;
     margin: 30vh 7.5vw 0 7.5vw;
     padding: 1vw;
     box-sizing: border-box;
@@ -95,7 +97,7 @@ body, header, main, div, img {
     height: 10vw;
     display: block;
     margin: 0 auto;
-    margin-top: -30%;
+    margin-top: -27.5%;
 }
 
 .card h2{
@@ -106,7 +108,7 @@ body, header, main, div, img {
 }
 
 .card p{
-    font-size: 1vw;
+    font-size: 1.10vw;
     text-align: justify;
 }
 
@@ -117,15 +119,16 @@ body, header, main, div, img {
     width: 60%;
     height: 6vh;
     border: none;
-    background: rgb(3, 181, 204);
+    background: linear-gradient(to right, #00E59F, #3077FE);
+    color: aliceblue;
     border-radius: 0.5vw;
-    font-size: 0.8vw;
-    font-weight: bold;
+    font-size: 0.95vw;
+    font-weight: bolder;
 }
 
 .card button:hover{
     transform: scale(1.1);
-    background: rgb(1, 78, 88);
+    background: rgb(56, 24, 129);
     color: aliceblue;
     cursor: pointer;
 }
