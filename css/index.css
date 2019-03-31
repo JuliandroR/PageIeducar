@@ -81,14 +81,14 @@ body, header, main, div, img {
 
 .card{
     flex: 1;
-    height: 52vh;
+    height: 55vh;
     border: solid rgba(74, 22, 196, 0.8) 0.2vw;
     /* background: linear-gradient(to right, rgb(78, 149, 248), rgb(77, 125, 248), rgba(86, 40, 194, 0.8)); */
     background: #ffff;
     color: black;
     margin: 30vh 7.5vw 0 7.5vw;
     padding: 1vw;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border-radius: 0.75vw;
 }
 
@@ -107,19 +107,19 @@ body, header, main, div, img {
 .card h2{
     text-align: center;
     width: 90%;
+    font-size: 1.25vw;
     margin: 1vh 5%;
     margin-top: 5vh
 }
 
 .card p{
-    font-size: 1.10vw;
+    font-size: 1.05vw;
     text-align: justify;
 }
 
 .card button{
     display: block;
     margin: 0 auto;
-    margin-bottom: 1vh;
     width: 60%;
     height: 6vh;
     border: none;
@@ -127,7 +127,6 @@ body, header, main, div, img {
     color: aliceblue;
     border-radius: 0.5vw;
     font-size: 0.95vw;
-    font-weight: bolder;
 }
 
 .card button:hover{
