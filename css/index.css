@@ -92,6 +92,10 @@ body, header, main, div, img {
     border-radius: 0.75vw;
 }
 
+.card a{
+    text-decoration: none;
+}
+
 .card img{
     width: 10vw;
     height: 10vw;
