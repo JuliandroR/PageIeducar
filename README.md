@@ -13,6 +13,6 @@ Página de suporte da Equipe i-Educar N1 do IFMS de Nova Andradina.
 - HubSpot
 
 ### Grupo de Colaboradores
-- Carlos Henrique ([Carlos](https://github.com/caarloshenrique))
-- Juliandro ([Juliandro](https://github.com/JuliandroR))
+- Carlos Henrique ([caarloshenrique](https://github.com/caarloshenrique))
+- Juliandro ([JuliandroR](https://github.com/JuliandroR))
 
