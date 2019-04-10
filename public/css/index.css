@@ -74,18 +74,18 @@ body, header, main, div, img {
 }
 
 .displayFlex{
-    width: 80%;
-    margin: 0 10%;
+    width: 90%;
+    margin: 0 5%;
     display: flex;
 }
 
 .card{
-    flex: 1;
+    width: 50vw;
     height: 55vh;
     border: solid rgba(74, 22, 196, 0.8) 0.2vw;
     background: #ffff;
     color: black;
-    margin: 30vh 2vw 0 2vw;
+    margin: 30vh 1vw 0 1vw;
     padding: 1vw;
     box-sizing: border-box;
     border-radius: 0.75vw;
