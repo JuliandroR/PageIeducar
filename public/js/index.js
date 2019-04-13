@@ -8,6 +8,28 @@ jQuery(function () {
     });
   });
 
+  $("#doc").click(function(){
+    console.log("entro");
+    
+    jQuery.ajax({
+      url: "https://api.brunocasas.me",
+      type: "post",
+      crossDomain: false,
+      data: {},
+      success: function(response){
+        console.log("foi");
+        
+        let url = "https://docs.google.com/document/d/1WUMRnCLqHm8svP9RJep-Vaqpf-hM1lEcOVFjgiEdYWc/edit?usp=sharing"
+
+        window.location.href = url;
+        window.location.assign(url);
+      }
+      })
+  })
+
+  
+
+
 
 const alertError = () => {
   alert(
