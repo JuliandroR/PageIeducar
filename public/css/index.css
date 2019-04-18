@@ -69,23 +69,24 @@ body, header, main, div, img {
 /* Container Cards */
 
 .container-cards{
-    height: 100vh;
+    height: 200vh;
     background-color: #e2dfdf;
 }
 
 .displayFlex{
-    width: 90%;
-    margin: 0 5%;
+    width: 85%;
+    margin: 0 7.5%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card{
-    width: 50vw;
+    width: 25vw;
     height: 55vh;
     border: solid rgba(74, 22, 196, 0.8) 0.2vw;
     background: #ffff;
     color: black;
-    margin: 30vh 1vw 0 1vw;
+    margin: 30vh 1.5vw 0 1.5vw;
     padding: 1vw;
     box-sizing: border-box;
     border-radius: 0.75vw;
@@ -113,7 +114,13 @@ body, header, main, div, img {
 
 .card p{
     font-size: 1.05vw;
+    height: 20vh;
     text-align: justify;
+}
+
+.card a{
+    position: static;
+    bottom: 1vh;
 }
 
 .card button{
