@@ -39,6 +39,8 @@ body, header, main, div, img {
 
 .container-apresentation{
     width: 100%;
+    padding-top: 15vh;
+    box-sizing: border-box;
     height: 100vh;
 }
 
