@@ -1,9 +1,19 @@
 jQuery(function() {
     jQuery(window).scroll(function() {
-        if (jQuery(this).scrollTop() > 750) {
-            $("#ieducar").css("color", "rgb(74, 22, 196)");
+        if (jQuery(this).scrollTop() > 200) {
+            $("#ieducar").css("background-color", "rgb(74, 22, 196)");
         } else {
-            $("#ieducar").css("color", "aliceblue");
+            $("#ieducar").css("background-color", "rgba(74, 22, 196, 0.01)");
+        }
+    });
+});
+
+jQuery(function() {
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() < 200) {
+            $("#ieducar").css("background-color", "rgba(74, 22, 196, 0.01)");
+        } else {
+            $("#ieducar").css("background-color", "rgb(74, 22, 196)");
         }
     });
 });
