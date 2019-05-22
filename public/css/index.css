@@ -73,7 +73,8 @@ body, header, main, div, img {
 /* Container Cards */
 
 .container-cards{
-    height: 200vh;
+    /* height: 200vh; */
+    padding-bottom: 5vh;
     background-color: #e2dfdf;
 }
 

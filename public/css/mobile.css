@@ -8,7 +8,7 @@
         position: relative;
         font-size: 7vw;
         margin-left: 40vw;
-        margin-top: 5vh;
+        margin-top: 0.5vh;
     }
     /* Apresentation */
     .image-apresentation {
@@ -26,7 +26,7 @@
     /* Container Cards */
 
     .container-cards{
-        height: 500vh;
+        padding-bottom: 5vh;
     }
 
     .displayFlex {
