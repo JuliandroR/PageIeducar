@@ -3,80 +3,112 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/mobile.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script defer src="js/index.js"></script>
-    <script src="js/chat.js"></script>
-    <link rel="icon" type="imagem/png" href="img/ieducar-slegenda.png" />
     <title>Suporte i-Educar</title>
 </head>
 
 <body>
-    <header id="ieducar" class="header">
-            <h2>i-Educar</h2>
+    <header>
+        <img src="./img/logo_horizontal.svg" alt="Logo i-educar com a escrita do nome" class="logo-educar-horizontal">
+        <nav class="menu">
+            <a href="#" class="item-menu">Quem Somos</a>
+            <a href="#" class="item-menu">Formulário de Solicitação</a>
+            <a href="#" class="item-menu">Manuais e Documentos</a>
+        </nav>
     </header>
     <main>
-        <div id="Inicio" class="container-apresentation">
-            <div class="image-apresentation">
-                <!-- Logo do i-Educar -->
+        <section class="introduction">
+            <img src="./img/logo_borda_arredondada.svg" alt="Logo i-Educar com bordas arredondadas"
+                class="logo-ieducar">
+            <h2 class="title-introduction">Suporte i-Educar</h2>
+            <h3 class="subtitle-introduction">Equipe de Atendimento de Nova Andradina - MS</h3>
+        </section>
+        <section class="about-we">
+            <h2 class="about-we-title">Equipe de Suporte i-Educar Nova Andradina</h2>
+            <article class="students">
+                <div class="student">
+                    <img src="./img/bolsistas/amanda.jpeg" alt="">
+                    <h2>Amanda Nunes</h2>
+                </div>
+                <div class="student">
+                    <img src="./img/bolsistas/bruno.jpg" alt="">
+                    <h2>Bruno de Almeida</h2>
+                </div>
+                <div class="student">
+                    <img src="./img/bolsistas/carlos.jpeg" alt="">
+                    <h2>Carlos Henrique</h2>
+                </div>
+                <div class="student">
+                    <img src="./img/bolsistas/douglas.jpeg" alt="">
+                    <h2>Douglas Profírio</h2>
+                </div>
+                <div class="student">
+                    <img src="./img/bolsistas/juliandro.jpeg" alt="">
+                    <h2>Juliandro Rocha</h2>
+                </div>
+            </article>
+        </section>
+        <section class="form">
+            <img src="./img/formulário de solicitação.png" alt="">
+            <div>
+                <h2 class="title-form">Formulário de Solicitação</h2>
+                <p class="text-form">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum unde fugit laborum
+                    quia? Expedita amet maxime a praesentium magnam est aspernatur ipsa explicabo tempora aliquid,
+                    labore nam consectetur harum nemo.
+                </p>
+                <a href="https://share.hsforms.com/1zKzAyuw0TM-1r9e_HkxH2g3bmqv" target="_blank">
+                    <button class="button-form">Acessar</button>
+                </a>
             </div>
-            <h2 class="title-apresentation">
-                Equipe de Suporte Nova Andradina
-            </h2>
-            <p class="text-apresentation">
-                Bem vindo ao atendimento de suporte do i-Educar, tal atendimento é realizado pela equipe de bolsistas do Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso do Sul - Campus Nova Andradina. O objetivo é promover aos usuários um atendimento
-                remoto as dúvidas recorrentes a utilização do sistema i-Educar, que fora implantado. A equipe é composta por Amanda Nunes, Bruno Casas, Carlos Silva, Douglas Profirio e Juliandro Ribeiro.
-            </p>
-        </div>
-        <div class="container-cards">
-            <div class="displayFlex">
-                <section class="card">
-                    <img src="img/questions (1).png" alt="Manual i-Educar">
-                    <h2>Manual de usabilidade e procedimentos do i-Educar</h2>
-                    <p>Este manual desenvolvido pela equipe de atendimento contém o passo a passo para a realização de atividades rotineiras vivênciadas durante a utilização do sistema, contando com textos, animações, trilha do caminho e outros meios.</p>
-                    <a href="https://docs.google.com/document/d/1WUMRnCLqHm8svP9RJep-Vaqpf-hM1lEcOVFjgiEdYWc/edit?usp=sharing">
-                        <button id="doc"><strong>Clique aqui para Acessar</strong></button>
-                    </a>
-                </section>
-                <section class="card">
-                    <img src="img/writing.png" alt="Formulário de ajuda">
-                    <h2>Formulário de solicitação de ajuda</h2>
-                    <p>Este formulário visa organizar e promover uma melhor organização de problemas que não foram possíveis de serem solucionados no chat direto, necessitando, às vezes, de uma análise maior, para tal ele é mais objetivo e coeso com sua
-                        proposição.
-                    </p>
-                    <a href="https://share.hsforms.com/1zKzAyuw0TM-1r9e_HkxH2g3bmqv">
-                        <button><strong>Clique aqui para Acessar</strong></button>
-                    </a>
-                </section>
-                <section class="card">
-                    <img src="img/i-diario.png" alt="Apresentação Secretárias - Diário Online">
-                    <h2>Apresentação Diário Online - Secretários</h2>
-                    <p>Esta é a apresentação que foi utilizada durante o treinamento da capacitação do i-Diário para as secretárias da Rede de Ensino. Nela consta a apresentação dos módulos que serão utilizadas</p>
-                    <a href="https://prezi.com/view/MDjQEQEhMbhKfsJdNwrC/">
-                        <button><strong>Clique aqui para Acessar</strong></button>
-                    </a>
-                </section>
-                <section class="card">
-                    <img src="img/i-diario.png" alt="Apresentação Professores - Diário Online">
-                    <h2>Apresentação Diário Online - Professores</h2>
-                    <p>Esta é a apresentação que foi utilizada durante o treinamento da capacitação do i-Diário para os professores da Rede de Ensino. Nela consta a apresentação dos módulos que serão utilizadas</p>
-                    <a href="https://prezi.com/view/DdjXxOxYdzTN4I7EFn0w/">
-                        <button><strong>Clique aqui para Acessar</strong></button>
-                    </a>
-                </section>
-                <section class="card">
-                    <img src="img/analytics.png" alt="">
-                    <h2>Capacitação i-Educar para os Secretários</h2>
-                    <p>
-                        Está é a apresentação que foi utilizada durante o treinamento da capacitação do i-Educar para os secretários da Rede de Ensino.
-                    </p>
-                    <a href="https://prezi.com/view/F8HU5MztKAQOu4hDMYDx/">
-                        <button><strong>Clique aqui para Acessar</strong></button>
-                    </a>
-                </section>
+        </section>
+        <section class="documents">
+            <h2 class="title-documents">Manuais e Documentos</h2>
+            <div class="document">
+                <h2>Manual de usabilidade e procedimentos do i-Educar</h2>
+                <p>Este manual desenvolvido pela equipe de atendimento contém o passo a passo para a realização de
+                    atividades rotineiras
+                    vivênciadas durante a utilização do sistema, contando com textos, animações, trilha do caminho e
+                    outros meios.
+                </p>
+                <a href="https://docs.google.com/document/d/1WUMRnCLqHm8svP9RJep-Vaqpf-hM1lEcOVFjgiEdYWc/edit?usp=sharing"
+                    target="_blank">
+                    <button>Acessar</button>
+                </a>
             </div>
-        </div>
+            <div class="document">
+                <h2>Apresentação Diário Online - Secretários</h2>
+                <p>Esta é a apresentação que foi utilizada durante o treinamento da capacitação do i-Diário para as
+                    secretárias da Rede de
+                    Ensino. Nela consta a apresentação dos módulos que serão utilizadas.
+                </p>
+                <a href="https://prezi.com/view/MDjQEQEhMbhKfsJdNwrC/" target="_blank">
+                    <button>Acessar</button>
+                </a>
+            </div>
+            <div class="document">
+                <h2>Apresentação Diário Online - Professores</h2>
+                <p>Esta é a apresentação que foi utilizada durante o treinamento da capacitação do i-Diário para os
+                    professores da Rede de
+                    Ensino. Nela consta a apresentação dos módulos que serão utilizadas
+                </p>
+                <a href="https://prezi.com/view/DdjXxOxYdzTN4I7EFn0w/" target="_blank">
+                    <button>Acessar</button>
+                </a>
+            </div>
+            <div class="document">
+                <h2>Capacitação i-Educar para os Secretários</h2>
+                <p>Está é a apresentação que foi utilizada durante o treinamento da capacitação do i-Educar para os
+                    secretários da Rede de
+                    Ensino.
+                </p>
+                <a href="https://prezi.com/view/F8HU5MztKAQOu4hDMYDx/" target="_blank">
+                    <button>Acessar</button>
+                </a>
+            </div>
+        </section>
     </main>
 </body>
 

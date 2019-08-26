@@ -1,151 +1,305 @@
-@import url('https://fonts.googleapis.com/css?family=Amaranth');
-@import url('https://fonts.googleapis.com/css?family=Acme');
-
-body{
-    background: linear-gradient(to right, #3389FF, #2E68FC, rgb(74, 22, 196));
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: sans-serif;
-    color: aliceblue;
-}
-
-body, header, main, div, img {
+body {
     margin: 0;
     padding: 0;
+
+    display: flex;
+
+    font-family: sans-serif;
 }
 
-/* Header */
+header {
+    background-color: #ffffff;
 
-.header{
-    width: 100%;
-    height: 10vh;
-    position: fixed;
-    padding-top: 0.5vh;
-    top: 0;
-}
+    display: flex;
+    height: 7.5vh;
+    width: 100vw;
 
-.header h2{
-    font-size: 2.5vw;
-    margin-left: 4vw;
-    line-height: 10vh;
-    margin-top: 0;
-    font-family: 'Amaranth', sans-serif;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-/* Apresentation */
-
-.container-apresentation{
-    width: 100%;
-    padding-top: 15vh;
     box-sizing: border-box;
-    height: 100vh;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    position: fixed;
 }
 
-.image-apresentation {
-    background-image: url("../img/ieducar-oficial.png");
-    background-position: center;
-    background-size: cover;
-    width: 17.5vw;
-    height: 17.5vw;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    margin-top: 4.5vh;
-    overflow: hidden;
+.logo-educar-horizontal {
+    width: 7.5vw;
+
+    padding-left: 5vw;
+    padding-right: 35vw;
 }
 
-.title-apresentation {
-    margin-top: 2vh;
-    font-size: 2.5vw;
+.menu {
+    display: flex;
+    width: 50vw;
+
+    margin-right: 2.5vw;
+}
+
+.item-menu {
+    flex: 1;
+
+    color: #494af8;
+    font-family: sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    line-height: 7.5vh;
+    text-decoration: none;
     text-align: center;
-    font-family: 'Acme', sans-serif;
 }
 
-.text-apresentation {
-    width: 45%;
-    text-align: center;
-    margin: 2vh auto 0 auto;
-    font-size: 1.25vw;
-    font-family: 'Arbutus Slab', serif;
+.item-menu:hover {
+    color: #ffffff;
+    background-color: #494af8;
 }
 
-/* Container Cards */
-
-.container-cards{
-    /* height: 200vh; */
-    padding-bottom: 5vh;
-    background-color: #e2dfdf;
-}
-
-.displayFlex{
-    width: 85%;
-    margin: 0 7.5%;
+.introduction {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-}
+    height: 92.5vh;
+    width: 100vw;
 
-.card{
-    width: 25vw;
-    height: 55vh;
-    border: solid rgba(74, 22, 196, 0.8) 0.2vw;
-    background: #ffff;
-    color: black;
-    margin: 20vh 1.5vw 0 1.5vw;
-    padding: 1vw;
     box-sizing: border-box;
-    border-radius: 0.75vw;
+    margin: 7.5vh 0 20vh 0;
+    padding: 0;
+
+    background: url('../img/imagem_principal_home.png');
+    background-size: cover;
 }
 
-.card a{
-    text-decoration: none;
+.logo-ieducar {
+    height: 15vw;
+    width: 15vw;
+
+    margin: 10vh auto 1vh auto;
+    padding-right: 20vw;
 }
 
-.card img{
-    width: 10vw;
-    height: 10vw;
-    display: block;
-    margin: 0 auto;
-    margin-top: -27.5%;
-}
+.title-introduction {
+    height: 0vh;
+    width: 75vw;
 
-.card h2{
+    margin: 0;
+    padding-right: 25vw;
+
+    color: #ffffff;
+    font-size: 5.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
     text-align: center;
-    width: 90%;
-    font-size: 1.25vw;
-    margin: 1vh 5%;
-    margin-top: 5vh
 }
 
-.card p{
-    font-size: 1.05vw;
+.subtitle-introduction {
+    height: 0vh;
+    width: 75vw;
+
+    margin: 0;
+    padding-right: 25vw;
+
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-we {
+    width: 100vw;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20vh;
+}
+
+.about-we-title {
+    width: 75vw;
+
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    padding-right: 20vw;
+    margin-top: 20vh;
+
+    font-size: 2vw;
+    font-weight: normal;
+}
+
+.students {
+    width: 95vw;
+
+    margin-left: 2.5vw;
+
+    align-content: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.student {
+    background-image: linear-gradient(to right, #445dff, #4a55fb, #514bfd, #5348fd, #5843fe, #6639fe);
+    width: 16vw;
+    border-radius: 0.5vw;
+    /* flex: 1; */
+
+    box-sizing: border-box;
+    padding: 1vw;
+}
+
+.student img {
+    border-radius: 0.5vw;
+    display: block;
+    margin: 0 auto 2vh auto;
+
+    width: 90%;
+}
+
+.student h2 {
+    margin: 0;
+
+    color: #ffffff;
+    font-size: 1.25vw;
+    font-weight: normal;
+    text-align: center;
+}
+
+.form {
+    background-image: linear-gradient(to right, #445dff, #4a55fb, #514bfd, #5348fd, #5843fe, #6639fe);
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 5vh;
+    padding: 0;
+    overflow: hidden;
+
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.form img {
+    height: 65vh;
+
+    margin-top: 18vh;
+    margin-left: 5vw;
+
+    border-radius: 0.5vw;
+
+    box-shadow: 9px -7px 10px rgba(63, 63, 63, 0.4);
+}
+
+.title-form {
+    margin-left: 10vw;
+    margin-top: 20vh;
+    padding-right: 20vw;
+
+    font-size: 2.5vw;
+    font-weight: normal;
+}
+
+.text-form {
+    margin-left: 15vw;
+    margin-right: 5vw;
+
+    font-size: 1.15vw;
+    line-height: 4vh;
+    text-align: justify;
+}
+
+.button-form {
+    height: 6vh;
+    width: 12vw;
+
+
+    background: #ffffff00;
+    border: solid 2px #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25vw;
+    margin-top: 5vh;
+
+    color: #ffffff;
+    font-size: 1vw;
+    font-weight: bold;
+
+}
+
+.button-form:hover {
+    background: #ffffff;
+    color: #6639fe;
+}
+
+.documents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin: 0;
+    padding: 4vw;
+
+    font-family: sans-serif;
+}
+
+.title-documents {
+    width: 78vw;
+
+    margin-bottom: 10vh;
+    margin-left: 2vw;
+    margin-top: 20vh;
+    padding-right: 20vw;
+
+    font-size: 2vw;
+    font-weight: normal;
+}
+
+.document {
+    width: 20vw;
+
+    border-radius: 10px;
+    border: solid 3px #445dff;
+    box-sizing: border-box;
+    padding: 1vw;
+    margin-bottom: 5vh;
+
+    box-shadow: 2px -2px 20px #445dff4f;
+}
+
+.document h2 {
+    font-weight: normal;
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+.document p {
+    font-size: 1vw;
     height: 20vh;
     text-align: justify;
 }
 
-.card a{
-    position: static;
-    bottom: 1vh;
-}
+.document button {
+    height: 4.5vh;
+    width: 8vw;
 
-.card button{
-    display: block;
-    margin: 0 auto;
-    width: 60%;
-    height: 6vh;
-    border: none;
-    background: linear-gradient(to right, #00E59F, #3077FE);
-    color: aliceblue;
-    border-radius: 0.5vw;
-    font-size: 0.95vw;
-}
-
-.card button:hover{
-    transform: scale(1.1);
-    background: rgb(56, 24, 129);
-    color: aliceblue;
+    background: #ffffff00;
+    border: solid 2px #445dff;
+    border-radius: 5px;
     cursor: pointer;
+    display: block;
+    margin: 1vh auto;
+
+    color: #445dff;
+    font-size: 1vw;
+    font-weight: bold;
+
+}
+
+.document button:hover {
+    background: #445dff;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
 }
