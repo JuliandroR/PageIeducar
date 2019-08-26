@@ -1,19 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-
     display: flex;
-
     font-family: sans-serif;
 }
 
 header {
     background-color: #ffffff;
-
     display: flex;
     height: 7.5vh;
     width: 100vw;
-
     box-sizing: border-box;
     margin: 0;
     margin-top: 0;
@@ -23,7 +19,6 @@ header {
 
 .logo-educar-horizontal {
     width: 7.5vw;
-
     padding-left: 5vw;
     padding-right: 35vw;
 }
@@ -31,13 +26,11 @@ header {
 .menu {
     display: flex;
     width: 50vw;
-
     margin-right: 2.5vw;
 }
 
 .item-menu {
     flex: 1;
-
     color: #494af8;
     font-family: sans-serif;
     font-size: 1vw;
@@ -57,11 +50,9 @@ header {
     flex-wrap: wrap;
     height: 92.5vh;
     width: 100vw;
-
     box-sizing: border-box;
     margin: 7.5vh 0 20vh 0;
     padding: 0;
-
     background: url('../img/imagem_principal_home.png');
     background-size: cover;
 }
@@ -69,7 +60,6 @@ header {
 .logo-ieducar {
     height: 15vw;
     width: 15vw;
-
     margin: 10vh auto 1vh auto;
     padding-right: 20vw;
 }
@@ -77,10 +67,8 @@ header {
 .title-introduction {
     height: 0vh;
     width: 75vw;
-
     margin: 0;
     padding-right: 25vw;
-
     color: #ffffff;
     font-size: 5.5vw;
     font-family: sans-serif;
@@ -91,10 +79,8 @@ header {
 .subtitle-introduction {
     height: 0vh;
     width: 75vw;
-
     margin: 0;
     padding-right: 25vw;
-
     color: #ffffff;
     font-size: 1.5vw;
     font-family: sans-serif;
@@ -104,7 +90,6 @@ header {
 
 .about-we {
     width: 100vw;
-
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -113,21 +98,17 @@ header {
 
 .about-we-title {
     width: 75vw;
-
     margin-bottom: 10vh;
     margin-left: 5vw;
     padding-right: 20vw;
     margin-top: 20vh;
-
     font-size: 2vw;
     font-weight: normal;
 }
 
 .students {
     width: 95vw;
-
     margin-left: 2.5vw;
-
     align-content: center;
     box-sizing: border-box;
     display: flex;
@@ -135,11 +116,11 @@ header {
 }
 
 .student {
-    background-image: linear-gradient(to right, #445dff, #4a55fb, #514bfd, #5348fd, #5843fe, #6639fe);
+    border-radius: 10px;
+    border: solid 3px #445dff;
     width: 16vw;
     border-radius: 0.5vw;
     /* flex: 1; */
-
     box-sizing: border-box;
     padding: 1vw;
 }
@@ -148,14 +129,12 @@ header {
     border-radius: 0.5vw;
     display: block;
     margin: 0 auto 2vh auto;
-
     width: 90%;
 }
 
 .student h2 {
     margin: 0;
-
-    color: #ffffff;
+    color: #000000;
     font-size: 1.25vw;
     font-weight: normal;
     text-align: center;
@@ -166,25 +145,20 @@ header {
     display: flex;
     height: 80vh;
     width: 100vw;
-
     box-sizing: border-box;
     margin: 0;
     margin-bottom: 5vh;
     padding: 0;
     overflow: hidden;
-
     color: #ffffff;
     font-family: sans-serif;
 }
 
 .form img {
     height: 65vh;
-
     margin-top: 18vh;
     margin-left: 5vw;
-
     border-radius: 0.5vw;
-
     box-shadow: 9px -7px 10px rgba(63, 63, 63, 0.4);
 }
 
@@ -192,7 +166,6 @@ header {
     margin-left: 10vw;
     margin-top: 20vh;
     padding-right: 20vw;
-
     font-size: 2.5vw;
     font-weight: normal;
 }
@@ -200,7 +173,6 @@ header {
 .text-form {
     margin-left: 15vw;
     margin-right: 5vw;
-
     font-size: 1.15vw;
     line-height: 4vh;
     text-align: justify;
@@ -209,19 +181,15 @@ header {
 .button-form {
     height: 6vh;
     width: 12vw;
-
-
     background: #ffffff00;
     border: solid 2px #ffffff;
     border-radius: 5px;
     cursor: pointer;
     margin-left: 25vw;
     margin-top: 5vh;
-
     color: #ffffff;
     font-size: 1vw;
     font-weight: bold;
-
 }
 
 .button-form:hover {
@@ -233,36 +201,30 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-
     box-sizing: border-box;
     justify-content: space-between;
     margin: 0;
     padding: 4vw;
-
     font-family: sans-serif;
 }
 
 .title-documents {
     width: 78vw;
-
     margin-bottom: 10vh;
     margin-left: 2vw;
     margin-top: 20vh;
     padding-right: 20vw;
-
     font-size: 2vw;
     font-weight: normal;
 }
 
 .document {
     width: 20vw;
-
     border-radius: 10px;
     border: solid 3px #445dff;
     box-sizing: border-box;
     padding: 1vw;
     margin-bottom: 5vh;
-
     box-shadow: 2px -2px 20px #445dff4f;
 }
 
@@ -281,18 +243,15 @@ header {
 .document button {
     height: 4.5vh;
     width: 8vw;
-
     background: #ffffff00;
     border: solid 2px #445dff;
     border-radius: 5px;
     cursor: pointer;
     display: block;
     margin: 1vh auto;
-
     color: #445dff;
     font-size: 1vw;
     font-weight: bold;
-
 }
 
 .document button:hover {
