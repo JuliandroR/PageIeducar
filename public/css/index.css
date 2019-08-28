@@ -1,20 +1,11 @@
 body {
     margin: 0;
-    padding: 0;
-    display: flex;
     font-family: sans-serif;
 }
 
 header {
     background-color: #ffffff;
     display: flex;
-    height: 7.5vh;
-    width: 100vw;
-    box-sizing: border-box;
-    margin: 0;
-    margin-top: 0;
-    padding: 0;
-    position: fixed;
 }
 
 .logo-educar-horizontal {
@@ -26,7 +17,7 @@ header {
 .menu {
     display: flex;
     width: 50vw;
-    margin-right: 2.5vw;
+    flex-grow: 1;
 }
 
 .item-menu {
@@ -49,9 +40,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     height: 92.5vh;
-    width: 100vw;
     box-sizing: border-box;
-    margin: 7.5vh 0 20vh 0;
+    /*margin: 7.5vh 0 20vh 0;*/
     padding: 0;
     background: url('../img/imagem_principal_home.png');
     background-size: cover;
@@ -89,7 +79,6 @@ header {
 }
 
 .about-we {
-    width: 100vw;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -144,7 +133,6 @@ header {
     background-image: linear-gradient(to right, #445dff, #4a55fb, #514bfd, #5348fd, #5843fe, #6639fe);
     display: flex;
     height: 80vh;
-    width: 100vw;
     box-sizing: border-box;
     margin: 0;
     margin-bottom: 5vh;
@@ -200,7 +188,6 @@ header {
 .documents {
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
     box-sizing: border-box;
     justify-content: space-between;
     margin: 0;
